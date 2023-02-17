@@ -14,7 +14,7 @@ In this assignment, you will apply the concept of encapsulation in object orient
 4. Implement a **Getter method** for checking account balance.
 5. Use **private** access specifier to prevent cash from being accessed directly outside of the class.
 6. **Setter** and **Getter methods** are the only channels to access the private attributes from outside of the class.
-7. Implement a banking use case that applies the concept of encapsulation, makes use of the **private** access specifier **Setter** and **Getter methods**. In the banking use case, a customer is prompted to open an account with a minimum amount of cash. Once the account is opened, the customer will be given options to deposit cash, withdraw cash, check balance and exit.
+7. Implement a banking use case that applies the concept of encapsulation, makes use of the **private** access specifier, **Setter** and **Getter methods**. In the banking use case, a customer is prompted to open an account with a minimum amount of cash. Once the account is opened, the customer will be given options to deposit cash, withdraw cash, check balance and exit.
 8. For simplicity, you can assume this banking system serves 1 customer at a time.
 
 ## Use Case Diagram - Banking System
@@ -49,17 +49,18 @@ These options should be cycled until the customer selects "exit the system".
 
 As normal banking operations, deposit cash increments the account balance, withdraw cash decrements account balance and check balance retrieves account balance.
 
-Besides each individual customer account balance, the banking system also keeps a congregated balance (cash pool) of all customers accounts. This congregated balance should only be accessed within the banking system, that means no customer or others outside of the bank can reach the congregated balance.
+Besides each individual customer account balance, the banking system also keeps a cash pool of all customers accounts. This cash pool should only be accessed within the banking system, that means no customer or others outside of the bank can reach the cash pool.
 
 **Note**:
 
-1. In object oriented programming, that means no object created from the banking class can directly access the congregated balance (cash pool) that declared as a **private** class member.
-2. No Setter or Getter method should be implemented to access the congregated balance in this banking system because this is a customer use case.
+1. In object oriented programming, that means no object created from the banking class can directly access the cash pool that declared as a **private** class member.
+2. No Setter or Getter method should be implemented to access the cash pool in this banking system because this is a customer use case.
+3. However, the cash pool should be incremented and decremented when the deposit and withdraw transactions are executed.
 
-To test the congregated amount (cash pool) is set up correctly, try to access the private cash pool from an object created from the banking class, e.g. `myBanking.mCashPool`, you will get this similar error message --
+To test the cash pool is set up correctly, try to access the private cash pool from an object created from the banking class, e.g. `myBanking.mCashPool`, you will get this similar error message --
 
 <img src="img/error-access-private-member.png" style="width:300px" alt="banking use case">.
 
 ## Starter Code
 
-a repository provides basic code structure and inline documentation for you to get started. Banking.cpp includes a class structure and a main outsider of the class for implementing this Banking system use case.
+This repository provides basic code structure and inline documentation for you to get started. Banking.cpp includes a class structure and a main outsider of the class for implementing this Banking system use case.
