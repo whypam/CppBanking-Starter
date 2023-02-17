@@ -58,7 +58,7 @@ Besides each individual customer account balance, the banking system also keeps 
 
 To test the congregated amount (cash pool) is set up correctly, try to access the private cash pool from an object created from the banking class, e.g. `myBanking.mCashPool`, you will get this similar error message --
 
-<img src="img/error-access-private-member.png" style="width:75%" alt="banking use case">.
+<img src="img/error-access-private-member.png" style="width:300px" alt="banking use case">.
 
 ## Starter Code
 
