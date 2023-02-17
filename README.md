@@ -15,7 +15,7 @@ To complete this assignment, you:
 
 1. Use C++17 or above.
 2. Create a class in a .cpp file.
-3. Implement a banking use case that applies the concept of encapsulation, makes use of the **private** access specifier, **Setter** and **Getter methods**. In the banking use case, a customer is prompted to open an account with a minimum amount of cash. Once the account is opened, the customer will be given options to deposit cash, withdraw cash, check balance and exit.
+3. Implement a banking use case that applies the concept of encapsulation, makes use of the **private** access specifier, **Setter** and **Getter methods**. In the banking use case, a customer is prompted to open an account with a minimum amount of cash. Once the account is opened, the customer will be given options to deposit cash, withdraw cash, check balance and exit the banking system.
 4. For simplicity, you can assume this banking system serves 1 customer at a time.
 5. Implement **Setter methods** for opening an account, depositing cash and withdrawing cash.
 6. Implement a **Getter method** for checking account balance.
@@ -46,7 +46,7 @@ In this use case, a customer can perform four (4) types of transactions on the b
 
 To start, the banking system prompts a customer to enter an amount to open an account. The system should set a minimum amount for opening an account. If the amount doesn't fulfill the requirement, the system will prompt the customer to contact customer services before exiting.
 
-Once successfully opened an account, the customer are provided four (4) options:
+Once successfully opened an account, the customer is provided four (4) options:
 
 - deposit cash
 - withdraw cash
@@ -67,10 +67,12 @@ Besides each individual customer account balance, the banking system also keeps 
 2. No Setter or Getter method should be implemented to access the cash pool in this banking system because this is a customer use case.
 3. However, the cash pool should be incremented and decremented when the deposit and withdraw transactions are executed.
 
-To test the cash pool is set up correctly, try to access the `private: mCashPool` from an object created from the banking class, e.g. `myBanking.mCashPool`, you will get this similar error message --
+To test the cash pool is set up correctly, try to access the cash pool declared as `private: mCashPool` from an object created from the banking class, e.g. `myBanking.mCashPool`, you will get an error message similar to this --
 
 <img src="img/error-access-private-member.png" style="width:300px" alt="banking use case">.
 
 ## Starter Code
 
-This repository provides basic code structure and inline documentation for you to get started. `Banking.cpp` includes a class structure and a `main()` outsider of the class for implementing this Banking system use case.
+This repository provides a basic code structure and inline documentation for you to get started. `Banking.cpp` includes a class structure and a `main()` outsider of the class for implementing this Banking system use case.
+
+Happy Coding!
