@@ -27,7 +27,7 @@ To complete this assignment, you:
 1. Your completed assignment is a .cpp sourse file.
 2. Submit the sourse file to Canvas.
 
-## Use Case Diagram - Banking System
+## Use Case - Banking System
 
 <img src="img/Banking-use-case.png" alt="banking use case">
 
