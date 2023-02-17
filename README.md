@@ -1,4 +1,4 @@
-# Assignment: Encapsulation - Object Oriented Programming
+# Assignment: Encapsulation - Object Oriented Programming (OOP)
 
 ## Objective
 
@@ -6,16 +6,26 @@ In this assignment, you will apply the concept of encapsulation in object orient
 
 ## Prior Knowledge
 
+To complete this assignment, you:
+
+1. have a good understanding of Classes and Objects, Class Methods, Constructor and Access Specifiers in OOP.
+2. have completed Introduction to Programming (CS 10A) and Programming Concept 1 (CS 10B)
+
 ## Your Task
 
-1. Use C++.
-2. Create a class.
-3. Implement **Setter methods** for opening an account, depositing cash and withdrawing cash.
-4. Implement a **Getter method** for checking account balance.
-5. Use **private** access specifier to prevent cash from being accessed directly outside of the class.
-6. **Setter** and **Getter methods** are the only channels to access the private attributes from outside of the class.
-7. Implement a banking use case that applies the concept of encapsulation, makes use of the **private** access specifier, **Setter** and **Getter methods**. In the banking use case, a customer is prompted to open an account with a minimum amount of cash. Once the account is opened, the customer will be given options to deposit cash, withdraw cash, check balance and exit.
-8. For simplicity, you can assume this banking system serves 1 customer at a time.
+1. Use C++17 or above.
+2. Create a class in a .cpp file.
+3. Implement a banking use case that applies the concept of encapsulation, makes use of the **private** access specifier, **Setter** and **Getter methods**. In the banking use case, a customer is prompted to open an account with a minimum amount of cash. Once the account is opened, the customer will be given options to deposit cash, withdraw cash, check balance and exit.
+4. For simplicity, you can assume this banking system serves 1 customer at a time.
+5. Implement **Setter methods** for opening an account, depositing cash and withdrawing cash.
+6. Implement a **Getter method** for checking account balance.
+7. Use **private** access specifier to prevent cash from being accessed directly outside of the class.
+8. **Setter** and **Getter methods** are the only channels to access the private attributes from outside of the class.
+
+## Assignment Submission
+
+1. Your completed assignment is a .cpp sourse file.
+2. Submit the sourse file to Canvas.
 
 ## Use Case Diagram - Banking System
 
