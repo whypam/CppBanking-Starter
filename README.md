@@ -39,19 +39,19 @@ To complete this assignment, you:
 
 In this use case, a customer can perform four (4) types of transactions on the banking system:
 
-- open account
-- deposit cash
-- withdraw cash
-- check balance
+1. open account
+2. deposit cash
+3. withdraw cash
+4. check balance
 
 To start, the banking system prompts a customer to enter an amount to open an account. The system should set a minimum amount for opening an account. If the amount doesn't fulfill the requirement, the system will prompt the customer to contact customer services before exiting.
 
 Once successfully opened an account, the customer is provided four (4) options:
 
-- deposit cash
-- withdraw cash
-- check balance
-- exit the system
+1. deposit cash
+2. withdraw cash
+3. check balance
+4. exit the system
 
 These options should be cycled until the customer selects "exit the system".
 
