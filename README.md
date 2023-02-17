@@ -8,7 +8,7 @@ In this assignment, you will apply the concept of encapsulation in object orient
 
 To complete this assignment, you:
 
-1. have a good understanding of Classes and Objects, Class Methods, Constructor and Access Specifiers in OOP.
+1. have had a good understanding of Classes and Objects, Class Methods, Constructor and Access Specifiers in OOP.
 2. have completed Introduction to Programming (CS 10A) and Programming Concept 1 (CS 10B)
 
 ## Your Task
