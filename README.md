@@ -19,7 +19,7 @@ In this assignment, you will apply the concept of encapsulation in object orient
 
 ## Use Case Diagram - Banking System
 
-<img src="img/Banking-use-case.png alt="banking use case">
+<img src="img/Banking-use-case.png" alt="banking use case">
 
 **Private** access specifier – members (attributes and methods) cannot be accessed or view from outside of the class.
 
