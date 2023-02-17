@@ -53,11 +53,11 @@ Besides each individual customer account balance, the banking system also keeps 
 
 **Note**:
 
-1. In object oriented programming, that means no object created from the banking class can directly access the cash pool that declared as a **private** class member.
+1. In object oriented programming, that means no object created from the banking class can directly access the cash pool that declared as a `private:` class member.
 2. No Setter or Getter method should be implemented to access the cash pool in this banking system because this is a customer use case.
 3. However, the cash pool should be incremented and decremented when the deposit and withdraw transactions are executed.
 
-To test the cash pool is set up correctly, try to access the private cash pool from an object created from the banking class, e.g. `myBanking.mCashPool`, you will get this similar error message --
+To test the cash pool is set up correctly, try to access the `private: mCashPool` from an object created from the banking class, e.g. `myBanking.mCashPool`, you will get this similar error message --
 
 <img src="img/error-access-private-member.png" style="width:300px" alt="banking use case">.
 
