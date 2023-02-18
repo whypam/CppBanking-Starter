@@ -73,6 +73,6 @@ To test the cash pool is set up correctly, try to access the cash pool declared 
 
 ## Starter Code
 
-This repository provides a basic code structure and inline documentation for you to get started. `Banking.cpp` includes a class structure and a `main()` outsider of the class for implementing this Banking system use case.
+This repository provides a basic code structure and inline documentation for you to get started. `Banking.cpp` includes a class structure and a `main()` outside of the class for implementing this banking system use case.
 
 Happy Coding!
